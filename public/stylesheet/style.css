@@ -1,0 +1,90 @@
+*{
+    margin: 1vh;
+    padding: 0;
+    font-family: monospace;
+}
+
+body, html{
+    background-color: blanchedalmond;
+}
+
+a{
+    font-size: 3vh;
+    text-decoration: none;
+}
+
+.form_space{
+    margin: -1vh;
+    text-align: center;
+}
+
+.User_space{
+    margin: -1vh;
+    text-align: center;
+}
+
+h1{
+    color: blueviolet;
+    font-size: 6vh;
+    margin: 4vh;
+}
+
+input{
+    border: none;
+    outline: none;
+    width: 25vb;
+    height: 2vh;
+    padding: 2vh;
+    border-radius: 1vh;
+}
+
+button{
+    border: none;
+    outline: none;
+    width: 25vb;
+    height: 6vh;    
+    border-radius: 1vh;
+    color: white;
+    background-color: blueviolet;
+}
+
+.users{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.indie_user{
+    margin-right: 2vh;
+    width: 35vb;
+    height: fit-content;
+    padding: 1vh;
+    border-radius: 1vh;
+    color: white;
+    background-color: blueviolet;
+    backdrop-filter: blur(10px);          /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Optional border for styling */
+    border-radius: 15px;                /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.image{
+    background-color: white;
+    border-radius: 1vh;
+    width: 95%;
+    height: 30vh;
+}
+
+.edit{
+    color: rgb(28, 232, 247);
+    font-size: 2.5vh;
+}
+
+.delete{
+    color: red;
+    font-size: 2.5vh;
+}
+
+
+
