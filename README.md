@@ -53,19 +53,19 @@ AuthApp/
   ```
 
 ## 🔐 Authentication & Security:
-  -🔒 Passwords are hashed using bcrypt.
-  -🔒 JWT tokens are used for session authentication.
-  -🔒 Cookies are set as httpOnly and secure.
-  -🔒 Protected routes require valid JWT tokens.
+  - 🔒 Passwords are hashed using bcrypt.
+  - 🔒 JWT tokens are used for session authentication.
+  - 🔒 Cookies are set as httpOnly and secure.
+  - 🔒 Protected routes require valid JWT tokens.
 
 ## 🛠 Technologies Used:
-  -🟢 Node.js.
-  -🟢 Express.js.
-  -🟢 MongoDB & Mongoose.
-  -🟢 JWT (JSON Web Tokens).
-  -🟢 bcrypt (for password hashing).
-  -🟢 EJS (for templating).
-  -🟢 dotenv (for environment variables).
+  - 🟢 Node.js.
+  - 🟢 Express.js.
+  - 🟢 MongoDB & Mongoose.
+  - 🟢 JWT (JSON Web Tokens).
+  - 🟢 bcrypt (for password hashing).
+  - 🟢 EJS (for templating).
+  - 🟢 dotenv (for environment variables).
 
 ## 📜 License
 -This project is licensed under the MIT License.
